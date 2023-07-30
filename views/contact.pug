@@ -1,0 +1,40 @@
+extends base.pug
+
+block scripts
+  script(src='../static/script.js')
+
+block style
+ style
+      include ../static/style.css
+      include ../static/phone.css
+
+block content
+    <nav id="navbar2">
+    <nav id="navbar">
+        <ul>
+            <div id="logo">
+                <img src='/static/image/logo1.jpg' alt="HDA" height="100px" width="100px">
+                <P>DSA</P>
+            </div>
+            <div class="lisection">
+                <li><a href="/">Home</a></li>
+                <li><a href="/level">Level</a></li>
+                <li><a href="/feature">Feature</a></li>
+                <li><a href="/class">Class Info</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </div>
+        </ul>
+    </nav>
+
+    <div class="container">
+    <form action="/contact", method="post", id="contact">
+    <input type="text" name="Name" id="Name" placeholder="Enter your name">
+    <input type="text" name="Age" id="Age" placeholder="Enter your Age">
+    <input type="text" name="Gender" id="Gender" placeholder="Enter your Gender">
+     <input type="Number" name="phone" id="phone" placeholder="Enter your phone no..">
+    <textarea name="Address" id="Address" cols="30" rows="10" placeholder="Enter your Adress"></textarea>
+    <textarea name="More" id="More" cols="30" rows="10" placeholder="More about you"></textarea>
+    <button class="btn">Submit</button>
+        </form>
+    </div>
+    </nav>

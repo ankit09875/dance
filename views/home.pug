@@ -1,0 +1,77 @@
+extends base.pug
+
+block scripts
+  script(src='../static/script.js')
+
+block style
+ style
+      include ../static/style.css
+      include ../static/phone.css
+
+block content
+    <nav id="navbar">
+        <ul>
+            <div id="logo">
+                <img src='/static/image/logo1.jpg' alt="HDA" height="100px" width="100px">
+                <P>DSA</P>
+            </div>
+            <div class="lisection">
+                <li><a href="/">Home</a></li>
+                <li><a href="/level">Level</a></li>
+                <li><a href="/feature">Feature</a></li>
+                <li><a href="/class">Class Info</a></li>
+                <li><a href="/contact">Contact Us</a></li>
+            </div>
+        </ul>
+    </nav>
+    <section id="introsection">
+        h4 welcome to the Dnce Style Academy
+        p Eat, Sleep, Dance, Repeat
+    </section>
+    <section id="misiionsection">
+        h4 Our Mission
+        <div class="cardsection">
+            <div class="card">
+                h3 Dance perfection
+                <div class="cardbox">
+                    <div class="boxing">
+                        <img src="/static/image/bg1.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor
+                        sit adipisicing elit.
+                        quo aperiam aut maxime iure?</p>
+                </div>
+            </div>
+            <div class="card">
+                h3 Dance the way you like
+                <div class="cardbox">
+                    <div class="boxing">
+                        <img src="/static/image/bg.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor
+                        sit adipisicing elit.
+                        quo aperiam aut maxime iure?</p>
+                </div>
+            </div>
+            <div class="card">
+                h3 Expert Teaching
+                <div class="cardbox">
+                    <div class="boxing">
+                        <img src="/static/image/bg3.png" alt="">
+                    </div>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet consectetur adipisicing Lorem ipsum, dolor
+                        sit adipisicing elit.
+                        quo aperiam aut maxime iure?</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sponsersection">
+        h4 Our Sponser
+    <div class="sponcerimg">
+    <img src="/static/image/clients (1).jpg" alt="">
+    <img src="/static/image/clients (1).png" alt="">
+    <img src="/static/image/clients (1).svg" alt="">
+    <img src="/static/image/clients (3).png" alt="">
+    </div>
+    </section>

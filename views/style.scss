@@ -1,0 +1,71 @@
+$border:2px solid black;
+$background:purple;
+
+body{
+    background-color: #887c7c;
+}
+section{
+    border: $border;
+    background-color: $background;
+    margin: auto;
+    width: 50%;
+    font-size: 1.6rem;
+    padding: 30px;
+    border-radius: 20px;
+    position: relative;
+    z-index: -2;
+    margin-top: 55px;
+    margin-bottom: -50px;
+    
+}
+.thumb{
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 120px;
+    border-radius: 25px;
+    margin: 63px 379px -97px;
+
+}
+h3{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 1.5rem;
+
+}
+.circle{
+    border: $border;
+    background-color: $background;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin: -4px 417px 0px auto
+}
+.btn{
+    display: block;
+    margin: auto;
+    height: 50px;
+    font-size: 1.3rem;
+    border-radius: 12px;
+    background-color: #8b2a5f;
+    cursor: pointer;
+    color: white;
+    margin-top: -39px;
+}
+
+.sass{
+    display: block;
+    margin: auto;
+    height: 84px;
+    width: 161px;
+    border: $border;
+    background-color:rgb(77, 22, 129);
+    font-size: 1.7rem;
+    border-radius: 40%;
+    color: white;
+    margin-top: 15px;
+}
+.sass p{
+    text-align: center;
+    padding-top: 3px;
+}

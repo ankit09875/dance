@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: white;
+}
+#navbar{
+ 
+background-color: #312c2c;
+height: 40px;
+}
+ul #logo{
+display:flex ;
+align-items: center;
+color: white;
+margin: 0px 20px;
+}
+#logo img{
+    height: 35px;
+    width: 40px;
+    filter: invert(1);
+}
+#logo p{
+    font-family: 'cursive';
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.lisection{
+    display: flex;
+    flex-direction: row;}
+ul li{
+       list-style: none;
+margin: 10px 10px;
+padding: 0px 8px;
+    }
+ul li a{
+    
+    text-decoration: none;
+    font-size: 1.1rem;
+     font-family: Poppins,sans-serif; 
+    
+}
+ul li a:hover{
+    background-color: rgb(244, 244, 248);
+    color:#2b2727;
+    border-radius: 8px;
+}
+#introsection{
+    height: 300px;
+    display: flex;
+ align-items: center;
+ justify-content: center;
+font-size: 2rem;
+flex-direction: column;
+padding-bottom: 101px;
+}
+#introsection p{
+    font-size: 1.7rem;
+}
+#introsection::before {
+    content: "";
+    background: url(/static/bg1.jpg);
+    /* overflow: hidden; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.8;
+
+ 
+}
+
+#misiionsection{
+    height: 205px;
+    background-color: #4c5c30;
+}
+
+#misiionsection h4{
+    display: flex;
+    justify-content: center;
+font-size: 1.8rem;
+}
+#misiionsection .card{
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 25%;
+    margin: 5px 10px;
+    height: 155px;
+    background-color: #3b2828;
+}
+#misiionsection .card h3{
+    display: flex;
+    justify-content: center;
+    margin-top: 3px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+}
+.cardsection{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.cardbox{
+    display: flex;
+    flex-direction: row;
+}
+.boxing img{
+    height: 80px;
+    width: 80px;
+    filter: invert(1);
+    margin: 10px 7px;
+}
+.cardbox p{
+    margin: 12px 13px;
+}
+
+#sponsersection{
+    background-color: #0f553493;
+    height: 200px;
+    
+}
+#sponsersection h4{
+text-align: center;
+font-size:1.8rem;
+padding-top: 6px;
+}
+.sponcerimg{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.sponcerimg img{
+height: 65px;
+width: 65px;
+margin:10px 14px;
+
+}
+.sponcerimg .iz img  {
+width: 120px;
+}
+
+#footer{
+    
+    background-color: #2b2727;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    display: flex;
+    justify-content: center;
+   font-weight: bold;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ input, textarea{
+    display: block;
+    padding: 2px;
+    margin: 5px auto;
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: black;
+ }
+ .btn{
+    display: block;
+    margin: 5px auto;
+    padding: 5px;
+    width: 130px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: black;
+ }
+ .btn:hover{
+    background-color: rgb(58, 58, 63);
+    color: aliceblue;
+ }
+ .container{
+    height: 500px;
+    margin-top: 50px;
+ }
+ #navbar2{
+    background-color: #cc9595;
+}
